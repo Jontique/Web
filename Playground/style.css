@@ -1,0 +1,54 @@
+@font-face {
+	font-family: titleFont;
+	src: url(junction-regular.woff)
+}
+header {
+	border-radius: 6px;
+	background-color: #f38101;
+	width: 100%;
+	height: 50px;
+	padding-top: 2px;
+	padding-right: 2px;
+	padding-left: -4px;
+	vertical-align: center;
+}
+#headr {
+	font-family: titleFont;
+	font-color: #00000;
+	font-size: 30px;
+	padding-left: 5px;
+	line-height: 50px;
+	width: 100%;
+	
+}
+#headrClock {
+	float: right;
+	font-family: titleFont;
+	font-color: #00000;
+	font-size: 15px;
+	padding: 10px;
+	width: 15%;
+	text-align: right; 
+}
+/* END OF HEADER */
+
+.dropDownMenu {
+	position: relative;
+	display: block;
+}
+.dropButton {
+	border-radius: 3px;
+	border: 0px; /* removes the emboss effect */
+	width: 80px;
+	height: 50px;
+	text-align: center;
+	background-color: #f38101;
+	border-color: #f38101;
+}
+.dropButton:focus {
+	background-color: #4a4a4a
+}
+body {
+	background-color: #595959;
+	
+}
